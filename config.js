@@ -14,25 +14,29 @@ module.exports = {
   socialLinks: [
     {
       icon: 'fa-github',
-      name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      name: 'GitHub',
+      url: 'https://github.com/dscuet',
     },
+
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/dscuet',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/dscuet',
+    },
+    {
+      icon: 'fa-instagram',
+      name: 'Instagram',
+      url: 'https://instagram.com/dscuet',
     },
     {
       icon: 'fa-envelope-o',
       name: 'Email',
-      url: 'mailto:anubhav.srivastava00@gmail.com',
+      url: 'mailto:dscuetlhrgmail.com',
     },
   ],
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
 };
