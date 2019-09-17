@@ -44,7 +44,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/guidelines"
             >
-              GuideLines
+              Guide Lines
             </Link>
           </li>
           <li>
