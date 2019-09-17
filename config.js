@@ -14,28 +14,28 @@ module.exports = {
   socialLinks: [
     {
       icon: 'fa-github',
-      name: 'GitHub',
+      name: 'Join us on GitHub',
       url: 'https://github.com/dscuet',
     },
 
     {
       icon: 'fa-twitter',
-      name: 'Twitter',
+      name: 'Follow us on Twitter',
       url: 'https://twitter.com/dscuet',
     },
     {
       icon: 'fa-facebook',
-      name: 'Facebook',
+      name: 'Like us on Facebook',
       url: 'https://facebook.com/dscuet',
     },
     {
       icon: 'fa-instagram',
-      name: 'Instagram',
+      name: 'Follow us on Instagram',
       url: 'https://instagram.com/dscuet',
     },
     {
       icon: 'fa-envelope-o',
-      name: 'Email',
+      name: 'Email Us',
       url: 'mailto:dscuetlhrgmail.com',
     },
   ],
