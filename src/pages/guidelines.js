@@ -1,8 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -16,7 +15,7 @@ const IndexPage = () => (
 
       <div className="wrapper">
         <div className="inner">
-          <h2 className="major">💥 Code of Conduct</h2>
+          <h2 className="major"><span role="img">💥</span> Code of Conduct</h2>
           <ul>
             <li>
               In case of any event or a workshop, the presence of every member
@@ -56,8 +55,8 @@ const IndexPage = () => (
             </li>
           </ul>
 
-          <h2 className="major">👨‍💻 Standard Operating Procedures</h2>
-          <h3>⚡ Developer Team</h3>
+          <h2 className="major"><span role="img">👨‍💻</span> Standard Operating Procedures</h2>
+          <h3><span role="img">⚡</span> Developer Team</h3>
           <ul>
             <li>The developer team will be led by the two Developer Leads.</li>
             <li>
@@ -88,7 +87,7 @@ const IndexPage = () => (
               team, and report to Developer Student Club Lead if the issue is not resolved.
             </li>
           </ul>
-          <h3>🍭 Graphics Team</h3>
+          <h3><span role="img">🍭</span> Graphics Team</h3>
           <ul>
             <li>
               The tasks will be equally distributed between the team members
@@ -135,7 +134,7 @@ const IndexPage = () => (
               he will be dismissed from the team.
             </li>
           </ul>
-          <h3>👦 Public Relations and Marketing Team</h3>
+          <h3><span role="img">👦</span> Public Relations and Marketing Team</h3>
           <ul>
             <li>
               The public relation Lead will deal with every kind of
@@ -187,7 +186,7 @@ const IndexPage = () => (
               team, and report to Developer Student Club Lead if the issue is not resolved.
             </li>
           </ul>
-          <h3>✍ Publication Team</h3>
+          <h3><span role="img">✍</span> Publication Team</h3>
           <ul>
             <li>
               The members of the publications team are to report to the Lead of
@@ -231,7 +230,7 @@ const IndexPage = () => (
             </li>
           </ul>
 
-          <h3>🚧 Creative and Management Team</h3>
+          <h3><span role="img">🚧</span> Creative and Management Team</h3>
           <ul>
             <li>
               Creative and Management team has to be present on all the event
