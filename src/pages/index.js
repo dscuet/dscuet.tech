@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -17,11 +18,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <img
-            src={pic8}
-            alt="DSC Logo"
-            width="14%"
-          />
+          <img src={pic8} alt="DSC Logo" width="14%" />
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -35,15 +32,19 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">Developer Student Club</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              The Developer Student Clubs (DSC) program is a grassroots channel
+              through which Google provides <strong>development skills</strong>{' '}
+              for students, towards employability. In addition to workshops,
+              Google also provides an opportunity for students to apply their
+              newly gained skills to develop solutions for local organizations,
+              and then provide visibility via showcases.
             </p>
-            <a href="/#" className="special">
+            <a
+              href="https://developers.google.com/programs/dsc/"
+              className="special"
+            >
               Learn more
             </a>
           </div>
@@ -56,13 +57,10 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">Our Mission</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              Provide native app and web development skills to students to help
+              them work towards employability.
             </p>
             <a href="/#" className="special">
               Learn more
@@ -77,7 +75,7 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">Developer Student Club Lead</h2>
             <p>
               Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
               turpis ante, nullam sit amet turpis non, sollicitudin posuere
@@ -94,7 +92,7 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Blogs</h2>
           <p>
             Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
             Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
@@ -157,9 +155,9 @@ const IndexPage = () => (
           </section>
           <ul className="actions">
             <li>
-              <a href="/#" className="button">
+              <Link to="/blog" className="button">
                 Browse All
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
