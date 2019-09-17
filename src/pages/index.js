@@ -9,6 +9,7 @@ import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
+import pic8 from '../assets/images/pic09.png';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -16,7 +17,11 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <img src="https://i.imgur.com/PiaWEKX.png" alt="DSC Logo" width="15%"/>
+          <img
+            src={pic8}
+            alt="DSC Logo"
+            width="14%"
+          />
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
