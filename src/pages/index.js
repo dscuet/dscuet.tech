@@ -84,7 +84,7 @@ const IndexPage = () => (
               cursus.
             </p>
             <a href="/#" className="special">
-              Learn more
+              Our Team
             </a>
           </div>
         </div>
