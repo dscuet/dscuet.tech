@@ -33,13 +33,11 @@ export default function Footer() {
           </ul>
         </form>
         <ul className="contact">
-         
-
           {config.socialLinks.map(social => {
-            const { icon, url } = social;
+            const { icon, url, name } = social;
             return (
               <li className={`${icon}`} key={url}>
-                <a href={url}>{url}</a>
+                <a href={url}>{name}</a>
               </li>
             );
           })}
