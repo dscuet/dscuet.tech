@@ -78,7 +78,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">Developer Student Club Lead</h2>
             <p>
-              Hi there! I am Muhammad Saad, a sophomore who is studying Computer Sciences at the University of Engineering and Technology. During the day, I lead one of the Google Student Communities — Developer Student Clubs — at my university. By night, I dabble with ReactJS, GatsbyJS, and NodeJS. Other than this, I am an open-source enthusiast, a tech lover, and a huge season fanatic.
+              Hi there! I am <a href="https://msaad.dev">Muhammad Saad</a>, a sophomore who is studying Computer Sciences at the University of Engineering and Technology. During the day, I lead one of the Google Student Communities — <a href="https://developers.google.com/programs/dsc/"> Developer Student Clubs</a> — at my university. By night, I dabble with ReactJS, GatsbyJS, and NodeJS. Other than this, I am an open-source enthusiast, a tech lover, and a huge season fanatic.
             </p>
             <a href="/#" className="special">
               Our Team
