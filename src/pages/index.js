@@ -11,6 +11,7 @@ import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
 import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/pic09.png';
+import pic9 from '../assets/images/pic10.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -72,7 +73,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic3} alt="" />
+            <img src={pic9} alt="" />
           </a>
           <div className="content">
             <h2 className="major">Developer Student Club Lead</h2>
