@@ -1,81 +1,307 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
+import '../assets/css/team.css';
+import pic10 from '../assets/images/pic10.jpg';
+import pic11 from '../assets/images/pic11.png';
+import pic12 from '../assets/images/pic12.png';
+import pic13 from '../assets/images/pic13.png';
+import pic14 from '../assets/images/pic14.png';
+import pic15 from '../assets/images/pic15.jpeg';
+import pic16 from '../assets/images/pic16.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
-        <div className="inner" style={{height: "35vh"}}>
-
-        </div>
+        <div className="inner" style={{ height: '35vh' }}></div>
       </header>
 
       <div className="wrapper">
-        <div className="inner">
-          <h3 className="major">Lorem ipsum dolor</h3>
-          <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo
-            donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
-          </p>
+        <div
+          className="inner"
+          style={{
+            paddingTop: '10px',
+            paddingLeft: '20px',
+            paddingRight: '20px',
+          }}
+        >
+          {/* DSC Lead */}
+          <div align="center" className="DSC">
+            <img src={pic10} alt="DSC Lead" />
+            <figcaption
+              style={{
+                paddingTop: '20px',
+                textAlign: 'center',
+                fontSize: '20px',
+                fontFamily: 'Raleway, Helvetica, sans-serif',
+              }}
+            >
+              Muhammad Saad
+            </figcaption>
+            <figcaption
+              style={{
+                paddingTop: '0px',
+                paddingBottom: '5px',
+                textAlign: 'center',
+                color: '#db3236	',
+                fontFamily: 'Raleway, Helvetica, sans-serif',
+                fontWeight: 600,
+              }}
+            >
+              DSC Lead
+            </figcaption>
+            <div className="socials">
+              <a href="https://github.com/msaaddev" className="image">
+                <i class="fa fa-github" aria-hidden="true"></i>
+              </a>
 
-          <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id
-            quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
-          </p>
+              <a href="https://twitter.com/msaaddev" className="image">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://msaad.dev" className="image">
+                <i class="fa fa-globe" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
 
-          <h3 className="major">Vitae phasellus</h3>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
+          <h2
+            style={{
+              fontSize: '35px',
+              textAlign: 'center',
+              paddingTop: '20px',
+            }}
+          >
+            DSC Core Team
+          </h2>
+          <div className="DSC_core" align="center">
+            {/* Management */}
+            <div className="management">
+              <img src={pic14} alt="Creative and Management Lead" />
+              <figcaption
+                style={{
+                  paddingTop: '20px',
+                  fontSize: '20px',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                }}
+              >
+                Ahmad Saeed
+              </figcaption>
+              <figcaption
+                style={{
+                  paddingTop: '0px',
+                  paddingBottom: '5px',
+                  color: '#4182EF',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                  fontWeight: 600,
+                }}
+              >
+                Creative and Mangement Lead
+              </figcaption>
+              <div className="socials">
+                <a href="https://github.com/ehmadsaeed" className="image">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
 
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
+                <a href="https://twitter.com/justEhmadSaeed" className="image">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="http://ehmadsaeed.github.io" className="image">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            {/* Graphics */}
+            <div className="graphics">
+                <img src={pic12} alt="Graphics Lead" />
+              <figcaption
+                style={{
+                  paddingTop: '20px',
+                  fontSize: '20px',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                }}
+              >
+                Javeria Urooj
+              </figcaption>
+              <figcaption
+                style={{
+                  paddingTop: '0px',
+                  paddingBottom: '5px',
+                  color: '#f4c20d',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                  fontWeight: 600,
+                }}
+              >
+                Graphics Lead
+              </figcaption>
+              <div className="socials">
+                <a href="https://github.com/javeriaurooj" className="image">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://facebook.com/jiya.arooj.37" className="image">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://instagram.com/javeriaurooj" className="image">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            {/* Publications */}
+            <div className="publications">
+                <img src={pic13} alt="Publications Lead" />
+              <figcaption
+                style={{
+                  paddingTop: '20px',
+                  fontSize: '20px',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                }}
+              >
+                Roshan Siddiqui
+              </figcaption>
+              <figcaption
+                style={{
+                  paddingTop: '0px',
+                  paddingBottom: '5px',
+                  color: '#3cba54	',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                  fontWeight: 600,
+                }}
+              >
+                Publications Lead
+              </figcaption>
+              <div className="socials">
+                <a href="https://github.com/rosh2004" className="image">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+
+                <a href="https://www.facebook.com/rosh2004" className="image">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/rosh_siddiqui/" className="image">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="DSC_core" align="center">
+            {/* Developer Lead 1 */}
+            <div className="developer1">
+                <img src={pic11} alt="Developer Lead" />
+
+              <figcaption
+                style={{
+                  paddingTop: '20px',
+
+                  fontSize: '20px',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                }}
+              >
+                Komal Shehzadi
+              </figcaption>
+              <figcaption
+                style={{
+                  paddingTop: '0px',
+                  paddingBottom: '5px',
+                  color: '#f4c20d',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                  fontWeight: 600,
+                }}
+              >
+                Developer Lead
+              </figcaption>
+              <div className="socials">
+                <a href="https://github.com/Komal303" className="image">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.facebook.com/aflaatoon.lrkii"
+                  className="image"
+                >
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/busiest_munchkin/"
+                  className="image"
+                >
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            {/* Developer Lead 2 */}
+            <div className="developer2">
+              <img src={pic16} alt="Graphics Lead" />
+              <figcaption
+                style={{
+                  paddingTop: '20px',
+                  fontSize: '20px',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                }}
+              >
+                Ahmad Bilal
+              </figcaption>
+              <figcaption
+                style={{
+                  paddingTop: '0px',
+                  paddingBottom: '5px',
+                  color: '#3cba54',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                  fontWeight: 600,
+                }}
+              >
+                Developer Lead
+              </figcaption>
+              <div className="socials">
+                <a href="https://github.com/ahmadbilaldev" className="image">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/ahmadbilaldev" className="image">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href="https://ahmadbilal.dev" className="image">
+                  <i class="fa fa-globe" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+            {/* Public Relations and Marketing Lead */}
+            <div className="PR_Marketing">
+              <img src={pic15} alt="Publications Lead" />
+              <figcaption
+                style={{
+                  paddingTop: '20px',
+                  fontSize: '20px',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                }}
+              >
+                M. Ruqaish
+              </figcaption>
+              <figcaption
+                style={{
+                  paddingTop: '0px',
+                  paddingBottom: '5px',
+                  color: '#4885ed',
+                  fontFamily: 'Raleway, Helvetica, sans-serif',
+                  fontWeight: 600,
+                }}
+              >
+                Public Relations and Marketing Lead
+              </figcaption>
+              <div className="socials">
+                <a href="https://github.com/muhammadruqaish" className="image">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/muhammadruqaish" className="image">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/muhammadruqaish/"
+                  className="image"
+                >
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

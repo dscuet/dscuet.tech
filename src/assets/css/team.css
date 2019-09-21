@@ -1,0 +1,72 @@
+.DSC img {
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 20px black;
+  width: 20%;
+}
+
+.DSC_core {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.DSC_core img {
+  width: 105%;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 20px black;
+}
+
+.management,
+.developer1 {
+  flex: 1;
+  margin: 10px 120px 10px 0px;
+}
+
+.graphics,
+.developer2 {
+  flex: 1;
+  margin: 10px 80px;
+}
+
+.publications,
+.PR_Marketing {
+  flex: 1;
+  margin: 10px 0px 10px 120px;
+}
+
+/* Media Query */
+@media screen and (max-width: 480px) {
+  .DSC img {
+    width: 65%;
+  }
+
+  .DSC_core img {
+    width: 72%;
+    margin: 0;
+  }
+
+  .DSC_core {
+    display: block;
+  }
+
+  .management,
+  .developer1 {
+    margin: 10px 10px 30px 10px;
+  }
+
+  .graphics,
+  .developer2 {
+    margin: 10px 10px 30px 10px;
+  }
+
+  .publications,
+  .PR_Marketing {
+    margin: 10px 10px 30px 10px;
+  }
+}
+
+.socials i {
+  margin: 0px 10px;
+}
