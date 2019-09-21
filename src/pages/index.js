@@ -98,7 +98,7 @@ const IndexPage = () => (
             </p>
             <Link to="/team">
               <a className="special" style={{ color: '#f4c20d' }}>
-                DSC Team
+                DSC Core  Team
               </a>
             </Link>
           </div>
