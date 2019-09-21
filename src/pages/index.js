@@ -80,9 +80,11 @@ const IndexPage = () => (
             <p>
               Hi there! I am <a href="https://msaad.dev">Muhammad Saad</a>, a sophomore who is studying Computer Sciences at the University of Engineering and Technology. During the day, I lead one of the Google Student Communities — <a href="https://developers.google.com/programs/dsc/"> Developer Student Clubs</a> — at my university. By night, I dabble with ReactJS, GatsbyJS, and NodeJS. Other than this, I am an open-source enthusiast, a tech lover, and a huge season fanatic.
             </p>
-            <a href="/#" className="special">
+            <Link to="/team">
+              <a className="special">
               Our Team
-            </a>
+              </a>
+            </Link>
           </div>
         </div>
       </section>
