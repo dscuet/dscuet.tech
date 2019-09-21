@@ -84,21 +84,21 @@ const IndexPage = () => (
               Developer Student Club Lead
             </h2>
             <p>
-              Hi there! I am <a href="https://msaad.dev">Muhammad Saad</a>, a
+              This is <a href="https://msaad.dev">Muhammad Saad</a>, a
               sophomore who is studying Computer Sciences at the University of
-              Engineering and Technology. During the day, I lead one of the
+              Engineering and Technology. During the day, Saad lead one of the
               Google Student Communities —{' '}
               <a href="https://developers.google.com/programs/dsc/">
                 {' '}
                 Developer Student Clubs
               </a>{' '}
-              — at my university. By night, I dabble with ReactJS, GatsbyJS, and
-              NodeJS. Other than this, I am an open-source enthusiast, a tech
+              — at his university. By night, he dabble with ReactJS, GatsbyJS, and
+              NodeJS. Other than this, he is an open-source enthusiast, a tech
               lover, and a huge season fanatic.
             </p>
             <Link to="/team">
               <a className="special" style={{ color: '#f4c20d' }}>
-                Our Team
+                DSC Team
               </a>
             </Link>
           </div>
