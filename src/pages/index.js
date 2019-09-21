@@ -5,7 +5,6 @@ import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
 import pic6 from '../assets/images/pic06.jpg';
@@ -33,7 +32,9 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Developer Student Club</h2>
+            <h2 className="major" style={{ color: '#f4c20d' }}>
+              Developer Student Club
+            </h2>
             <p>
               The Developer Student Clubs (DSC) program is a grassroots channel
               through which Google provides <strong>development skills</strong>{' '}
@@ -45,6 +46,7 @@ const IndexPage = () => (
             <a
               href="https://developers.google.com/programs/dsc/"
               className="special"
+              style={{ color: '#f4c20d' }}
             >
               Learn more
             </a>
@@ -58,12 +60,14 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Our Mission</h2>
+            <h2 className="major" style={{ color: '#f4c20d' }}>
+              Our Mission
+            </h2>
             <p>
               Provide native app and web development skills to students to help
               them work towards employability.
             </p>
-            <a href="/#" className="special">
+            <a href="/#" className="special" style={{ color: '#f4c20d' }}>
               Learn more
             </a>
           </div>
@@ -76,13 +80,25 @@ const IndexPage = () => (
             <img src={pic9} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Developer Student Club Lead</h2>
+            <h2 className="major" style={{ color: '#f4c20d' }}>
+              Developer Student Club Lead
+            </h2>
             <p>
-              Hi there! I am <a href="https://msaad.dev">Muhammad Saad</a>, a sophomore who is studying Computer Sciences at the University of Engineering and Technology. During the day, I lead one of the Google Student Communities — <a href="https://developers.google.com/programs/dsc/"> Developer Student Clubs</a> — at my university. By night, I dabble with ReactJS, GatsbyJS, and NodeJS. Other than this, I am an open-source enthusiast, a tech lover, and a huge season fanatic.
+              Hi there! I am <a href="https://msaad.dev">Muhammad Saad</a>, a
+              sophomore who is studying Computer Sciences at the University of
+              Engineering and Technology. During the day, I lead one of the
+              Google Student Communities —{' '}
+              <a href="https://developers.google.com/programs/dsc/">
+                {' '}
+                Developer Student Clubs
+              </a>{' '}
+              — at my university. By night, I dabble with ReactJS, GatsbyJS, and
+              NodeJS. Other than this, I am an open-source enthusiast, a tech
+              lover, and a huge season fanatic.
             </p>
             <Link to="/team">
-              <a className="special">
-              Our Team
+              <a className="special" style={{ color: '#f4c20d' }}>
+                Our Team
               </a>
             </Link>
           </div>
