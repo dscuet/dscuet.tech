@@ -76,8 +76,8 @@ const IndexPage = () => (
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
-            <img src={pic9} alt="" />
+          <a href="https://msaad.dev" className="image">
+            <img src={pic9} alt="DSC Lead" />
           </a>
           <div className="content">
             <h2 className="major" style={{ color: '#f4c20d' }}>
