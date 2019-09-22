@@ -46,7 +46,6 @@ const IndexPage = () => (
             <a
               href="https://developers.google.com/programs/dsc/"
               className="special"
-              style={{ color: '#f4c20d' }}
             >
               Learn more
             </a>
@@ -67,7 +66,7 @@ const IndexPage = () => (
               Provide native app and web development skills to students to help
               them work towards employability.
             </p>
-            <a href="/#" className="special" style={{ color: '#f4c20d' }}>
+            <a href="/#" className="special">
               Learn more
             </a>
           </div>
@@ -97,7 +96,7 @@ const IndexPage = () => (
               lover, and a huge season fanatic.
             </p>
             <Link to="/team">
-              <a className="special" style={{ color: '#f4c20d' }}>
+              <a className="special">
                 DSC Core  Team
               </a>
             </Link>
