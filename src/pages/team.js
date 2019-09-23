@@ -230,7 +230,7 @@ const IndexPage = () => (
             </div>
             {/* Developer Lead 2 */}
             <div className="developer2">
-              <img src={pic16} alt="Graphics Lead" />
+              <img src={pic16} alt="Developer Lead" />
               <figcaption
                 style={{
                   paddingTop: '20px',
@@ -265,7 +265,7 @@ const IndexPage = () => (
             </div>
             {/* Public Relations and Marketing Lead */}
             <div className="PR_Marketing">
-              <img src={pic15} alt="Publications Lead" />
+              <img src={pic15} alt="Public Relations and Marketing Lead" />
               <figcaption
                 style={{
                   paddingTop: '20px',
