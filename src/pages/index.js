@@ -5,12 +5,10 @@ import Layout from '../components/Layout';
 
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
-import pic4 from '../assets/images/pic04.jpg';
-import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
 import pic8 from '../assets/images/pic09.png';
 import pic9 from '../assets/images/pic10.jpg';
+import pic18 from '../assets/images/pic18.jpeg';
+
 
 import config from '../../config';
 const IndexPage = () => (
@@ -83,22 +81,20 @@ const IndexPage = () => (
               Developer Student Club Lead
             </h2>
             <p>
-              This is <a href="https://msaad.dev">Muhammad Saad</a>, a
-              sophomore who is studying Computer Sciences at the University of
-              Engineering and Technology. During the day, Saad lead one of the
-              Google Student Communities —{' '}
+              This is <a href="https://msaad.dev">Muhammad Saad</a>, a sophomore
+              who is studying Computer Sciences at the University of Engineering
+              and Technology. During the day, Saad lead one of the Google
+              Student Communities —{' '}
               <a href="https://developers.google.com/programs/dsc/">
                 {' '}
                 Developer Student Clubs
               </a>{' '}
-              — at his university. By night, he dabble with ReactJS, GatsbyJS, and
-              NodeJS. Other than this, he is an open-source enthusiast, a tech
-              lover, and a huge season fanatic.
+              — at his university. By night, he dabble with ReactJS, GatsbyJS,
+              and NodeJS. Other than this, he is an open-source enthusiast, a
+              tech lover, and a huge season fanatic.
             </p>
             <Link to="/team">
-              <a className="special">
-                DSC Core  Team
-              </a>
+              <a className="special">DSC Core Team</a>
             </Link>
           </div>
         </div>
@@ -115,56 +111,19 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <Link to="/dscuetinfosession">
+                <a className="image">
+                  <img src={pic18} alt="DSC UET Launch" />
+                </a>
+              </Link>
+              <h3 className="major">⚡ Developer Student Club UET Launch</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                This year, for the first time in Pakistan, Google introduced its
+                student developer community — Developer Student Clubs.
               </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
+              <Link to="/dscuetinfosession">
+                <a className="special">Read more</a>
+              </Link>
             </article>
           </section>
           <ul className="actions">
