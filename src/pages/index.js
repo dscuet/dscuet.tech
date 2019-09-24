@@ -3,16 +3,17 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
 import pic8 from '../assets/images/pic09.png';
 import pic9 from '../assets/images/pic10.jpg';
 import pic18 from '../assets/images/pic18.jpeg';
+import pic20 from '../assets/images/pic20.jpg';
+import pic22 from '../assets/images/pic22.jpg';
+
 
 
 import config from '../../config';
 const IndexPage = () => (
-  <Layout>
+  <Layout type="main">
     <section id="banner">
       <div className="inner">
         <div className="logo">
@@ -27,10 +28,10 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic1} alt="" />
+            <img src={pic20} alt="Developer Student Club" />
           </a>
           <div className="content">
-            <h2 className="major" style={{ color: '#f4c20d' }}>
+            <h2 className="major" >
               Developer Student Club
             </h2>
             <p>
@@ -54,10 +55,10 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <a href="/#" className="image">
-            <img src={pic2} alt="" />
+            <img src={pic22} alt="Mission" />
           </a>
           <div className="content">
-            <h2 className="major" style={{ color: '#f4c20d' }}>
+            <h2 className="major" >
               Our Mission
             </h2>
             <p>
@@ -77,7 +78,7 @@ const IndexPage = () => (
             <img src={pic9} alt="DSC Lead" />
           </a>
           <div className="content">
-            <h2 className="major" style={{ color: '#f4c20d' }}>
+            <h2 className="major" >
               Developer Student Club Lead
             </h2>
             <p>
@@ -103,12 +104,6 @@ const IndexPage = () => (
       <section id="four" className="wrapper alt style1">
         <div className="inner">
           <h2 className="major">Blogs</h2>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
           <section className="features">
             <article>
               <Link to="/dscuetinfosession">
