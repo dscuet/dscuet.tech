@@ -14,7 +14,7 @@ const IndexPage = () => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
-        <div className="inner" style={{ height: '31vh' }}></div>
+        <div className="inner" style={{ height: '36vh' }}></div>
       </header>
 
       <div className="wrapper">

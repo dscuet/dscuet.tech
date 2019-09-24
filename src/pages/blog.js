@@ -5,7 +5,7 @@ import Layout from '../components/Layout';
 import pic18 from '../assets/images/pic18.jpeg';
 
 const IndexPage = () => (
-  <Layout fullMenu>
+  <Layout fullMenu type="blog">
     <section id="wrapper">
       <header>
         <div className="inner" style={{ height: '31vh' }}>

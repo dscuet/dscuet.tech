@@ -3,8 +3,6 @@ import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
 import pic8 from '../assets/images/pic09.png';
 import pic9 from '../assets/images/pic10.jpg';
 import pic18 from '../assets/images/pic18.jpeg';
@@ -15,7 +13,7 @@ import pic22 from '../assets/images/pic22.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
-  <Layout>
+  <Layout type="main">
     <section id="banner">
       <div className="inner">
         <div className="logo">

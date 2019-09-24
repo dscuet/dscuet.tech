@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-import pic18 from '../assets/images/pic18.jpeg'
-
 import '../assets/sass/main.scss';
 import Footer from './Footer';
 import SideBar from './Sidebar';
@@ -29,7 +27,7 @@ class Layout extends Component {
   }
 
   render() {
-    const { children, fullMenu } = this.props;
+    const { children, fullMenu, type } = this.props;
     const { isPreloaded } = this.state;
     return (
       <StaticQuery
@@ -47,21 +45,48 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
-                { name: 'keywords', content: 'site, web' },
+                {
+                  name: 'Developer Student Club UET Chapter Official Website',
+                  content: 'Developer Student Club UET',
+                },
+                {
+                  name: 'DSC, Google Developers, Developer Student Clubs',
+                  content: 'site, web',
+                },
               ]}
             >
               <html lang="en" />
             </Helmet>
-            <div
-              className={isPreloaded ? ' main-body  is-preload' : ' main-body'}
-            >
-              <div id="page-wrapper">
-                <SideBar fullMenu={fullMenu} />
-                {children}
-                <Footer />
+            {type === 'main' && (
+              <div
+                className={
+                  isPreloaded && type === 'blog'
+                    ? ' main-body  is-preload'
+                    : ' main-body'
+                }
+              >
+                <div id="page-wrapper">
+                  <SideBar fullMenu={fullMenu} />
+                  {children}
+                  <Footer />
+                </div>
               </div>
-            </div>
+            )}
+            {type === 'blog' && (
+              <div
+                className={
+                  isPreloaded && type === 'blog'
+                    ? ' main-body2  is-preload'
+                    : ' main-body2'
+                }
+              >
+                <div id="page-wrapper">
+                  <SideBar fullMenu={fullMenu} />
+                  {children}
+                  <Footer />
+                </div>
+              </div>
+            )}
           </>
         )}
       />
