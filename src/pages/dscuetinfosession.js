@@ -2,9 +2,10 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
+import infosession from '../assets/images/infosession.jpg'
 
 const IndexPage = () => (
-  <Layout fullMenu>
+  <Layout fullMenu type="blog">
     <section id="wrapper">
       <header>
         <div className="inner" style={{ height: '31vh' }}>
@@ -39,7 +40,8 @@ const IndexPage = () => (
             he organized an info session on the Developer Student Club on
             September 11, 2019.
           </p>
-
+          <div align="center">
+            <img src={infosession} alt="infosession graphic" style={{ width: '60%' }} /></div>
           <h2 className="major">💥 Launch of Developer Student Club in UET</h2>
           <p>
             The info session took place at 11:00 AM in the Software Engineering
