@@ -57,12 +57,10 @@ class Layout extends Component {
             >
               <html lang="en" />
             </Helmet>
-            {type === 'main' && (
+            {(type === 'main' && (
               <div
                 className={
-                  isPreloaded && type === 'blog'
-                    ? ' main-body  is-preload'
-                    : ' main-body'
+                  isPreloaded ? ' main-body  is-preload' : ' main-body'
                 }
               >
                 <div id="page-wrapper">
@@ -71,22 +69,42 @@ class Layout extends Component {
                   <Footer />
                 </div>
               </div>
-            )}
-            {type === 'blog' && (
-              <div
-                className={
-                  isPreloaded && type === 'blog'
-                    ? ' main-body2  is-preload'
-                    : ' main-body2'
-                }
-              >
-                <div id="page-wrapper">
-                  <SideBar fullMenu={fullMenu} />
-                  {children}
-                  <Footer />
+            )) ||
+              (type === 'blog' && (
+                <div className="main-body2">
+                  <div id="page-wrapper">
+                    <SideBar fullMenu={fullMenu} />
+                    {children}
+                    <Footer />
+                  </div>
                 </div>
-              </div>
-            )}
+              )) ||
+              (type === 'team' && (
+                <div
+                  className={
+                    isPreloaded ? ' main-body3  is-preload' : ' main-body3'
+                  }
+                >
+                  <div id="page-wrapper">
+                    <SideBar fullMenu={fullMenu} />
+                    {children}
+                    <Footer />
+                  </div>
+                </div>
+              )) ||
+              (type === 'guidelines' && (
+                <div
+                  className={
+                    isPreloaded ? ' main-body4  is-preload' : ' main-body4'
+                  }
+                >
+                  <div id="page-wrapper">
+                    <SideBar fullMenu={fullMenu} />
+                    {children}
+                    <Footer />
+                  </div>
+                </div>
+              ))}
           </>
         )}
       />
