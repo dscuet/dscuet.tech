@@ -11,7 +11,7 @@ import pic15 from '../assets/images/pic15.jpeg';
 import pic16 from '../assets/images/pic16.png';
 
 const IndexPage = () => (
-  <Layout fullMenu>
+  <Layout fullMenu type="team">
     <section id="wrapper">
       <header>
         <div className="inner" style={{ height: '36vh' }}></div>
