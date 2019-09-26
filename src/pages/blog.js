@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
 import Layout from '../components/Layout';
+import '../assets/css/main.css'
+
 import pic18 from '../assets/images/pic18.jpeg';
 
 const IndexPage = () => (
   <Layout fullMenu type="blog">
     <section id="wrapper">
       <header>
-        <div className="inner" style={{ height: '31vh' }}>
+        <div className="inner height">
           <h2 style={{ border: 'none' }}>Blog</h2>
         </div>
       </header>

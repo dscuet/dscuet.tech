@@ -1,13 +1,14 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
+import '../assets/css/main.css'
+
 
 
 const IndexPage = () => (
   <Layout fullMenu type="guidelines">
     <section id="wrapper">
       <header>
-        <div className="inner">
+        <div className="inner height">
           <h2>GuideLines</h2>
           <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
         </div>
