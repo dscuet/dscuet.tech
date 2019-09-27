@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import '../assets/css/main.css'
 
 import Layout from '../components/Layout';
 import infosession from '../assets/images/infosession.jpg'
@@ -8,7 +9,7 @@ const IndexPage = () => (
   <Layout fullMenu type="blog">
     <section id="wrapper">
       <header>
-        <div className="inner" style={{ height: '31vh' }}>
+        <div className="inner height">
           <h2 style={{ border: 'none' }}>⚡ Developer Student Club UET Launch</h2>
         </div>
       </header>

@@ -1,0 +1,9 @@
+.height {
+    height: 50vh;
+}
+
+@media screen and (max-width: 480px) {
+    .height {
+        height: 20vh
+    }
+}

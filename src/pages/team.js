@@ -2,6 +2,8 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import '../assets/css/team.css';
+import '../assets/css/main.css'
+
 import pic10 from '../assets/images/pic10.jpg';
 import pic11 from '../assets/images/pic11.png';
 import pic12 from '../assets/images/pic12.png';
@@ -14,7 +16,7 @@ const IndexPage = () => (
   <Layout fullMenu type="team">
     <section id="wrapper">
       <header>
-        <div className="inner" style={{ height: '36vh' }}></div>
+        <div className="inner height"></div>
       </header>
 
       <div className="wrapper">

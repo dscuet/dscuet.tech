@@ -32,7 +32,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major" >
-              Developer Student Club
+              ⚡ Developer Student Club
             </h2>
             <p>
               The Developer Student Clubs (DSC) program is a grassroots channel
@@ -59,7 +59,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major" >
-              Our Mission
+              🚀 Our Mission
             </h2>
             <p>
               Provide native app and web development skills to students to help
@@ -79,7 +79,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major" >
-              Developer Student Club Lead
+              👨‍💻 Developer Student Club Lead
             </h2>
             <p>
               This is <a href="https://msaad.dev">Muhammad Saad</a>, a sophomore
@@ -103,7 +103,7 @@ const IndexPage = () => (
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Blogs</h2>
+          <h2 className="major">✍ Blogs</h2>
           <section className="features">
             <article>
               <Link to="/dscuetinfosession">
