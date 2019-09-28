@@ -84,13 +84,13 @@ const IndexPage = () => (
             <p>
               This is <a href="https://msaad.dev">Muhammad Saad</a>, a sophomore
               who is studying Computer Sciences at the University of Engineering
-              and Technology. During the day, Saad lead one of the Google
+              and Technology. During the day, Saad leads one of the Google
               Student Communities —{' '}
               <a href="https://developers.google.com/programs/dsc/">
                 {' '}
                 Developer Student Clubs
               </a>{' '}
-              — at his university. By night, he dabble with ReactJS, GatsbyJS,
+              — at his university. By night, he dabbles with ReactJS, GatsbyJS,
               and NodeJS. Other than this, he is an open-source enthusiast, a
               tech lover, and a huge season fanatic.
             </p>
