@@ -11,6 +11,7 @@ const IndexPage = () => (
       <header>
         <div className="inner height">
           <h2 style={{ border: 'none' }}>Blog</h2>
+          <p>We are not documenting. We are blogging about our events to make them interesting for you to read.</p>
         </div>
       </header>
 

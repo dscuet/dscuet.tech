@@ -10,7 +10,7 @@ const IndexPage = () => (
       <header>
         <div className="inner height">
           <h2>GuideLines</h2>
-          <p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+          <p>Developer Student Club has set some following guidelines which every member needs to follow.</p>
         </div>
       </header>
 

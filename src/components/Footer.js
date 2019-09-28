@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="inner">
         <h2 className="major">🙌 We would love to hear from you</h2>
         <p>
-          Use the form below in order to ping us.
+          Use the form below to ping us.
         </p>
         <form method="post" action="/#">
           <div className="fields">
