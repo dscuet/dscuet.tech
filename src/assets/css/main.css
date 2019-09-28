@@ -6,4 +6,7 @@
     .height {
         height: 20vh
     }
+    .height p {
+        font-size: 11px !important;
+    }
 }
