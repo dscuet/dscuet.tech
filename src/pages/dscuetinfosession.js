@@ -43,6 +43,7 @@ const IndexPage = () => (
           </p>
           <div align="center">
             <img src={infosession} alt="infosession graphic" style={{ width: '60%' }} /></div>
+          <br />
           <h2 className="major">💥 Launch of Developer Student Club in UET</h2>
           <p>
             The info session took place at 11:00 AM in the Software Engineering
