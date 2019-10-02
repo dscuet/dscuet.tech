@@ -40,6 +40,14 @@
   margin: 10px 0px 10px 120px;
 }
 
+.graphics img {
+  -webkit-transform: rotate(14deg);
+  -moz-transform: rotate(14deg);
+  -ms-transform: rotate(14deg);
+  -o-transform: rotate(14deg);
+  transform: rotate(14deg);
+}
+
 /* Media Query */
 @media screen and (max-width: 480px) {
   .DSC img {
