@@ -217,10 +217,10 @@ const IndexPage = () => (
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
                 <a
-                  href="https://www.facebook.com/aflaatoon.lrkii"
+                  href="https://www.twitter.com/Komal__Shehzadi"
                   className="image"
                 >
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://www.instagram.com/komal__shehzadi/"
