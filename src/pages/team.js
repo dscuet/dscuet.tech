@@ -223,7 +223,7 @@ const IndexPage = () => (
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
                 <a
-                  href="https://www.instagram.com/busiest_munchkin/"
+                  href="https://www.instagram.com/komal__shehzadi/"
                   className="image"
                 >
                   <i class="fa fa-instagram" aria-hidden="true"></i>
