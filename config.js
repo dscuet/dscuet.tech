@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Developer Student Club - UET | Google Developers', // <title>
-  manifestName: 'SolidState',
+  manifestName: 'DSC',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
