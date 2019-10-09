@@ -8,7 +8,7 @@ import infosession from '../assets/images/infosession.jpg'
 const IndexPage = () => (
   <Layout fullMenu type="blog">
     <section id="wrapper">
-      <header>
+      <header className="blogBg">
         <div className="inner height">
           <h2 style={{ border: 'none' }}>⚡ Developer Student Club UET Launch</h2>
         </div>

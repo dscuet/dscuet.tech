@@ -15,8 +15,8 @@ import pic16 from '../assets/images/pic16.png';
 const IndexPage = () => (
   <Layout fullMenu type="team">
     <section id="wrapper">
-      <header>
-        <div className="inner height"></div>
+      <header className="teamBg">
+        <div className="inner height "></div>
       </header>
 
       <div className="wrapper">

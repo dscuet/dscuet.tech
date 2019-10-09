@@ -7,7 +7,7 @@ import '../assets/css/main.css'
 const IndexPage = () => (
   <Layout fullMenu type="guidelines">
     <section id="wrapper">
-      <header>
+      <header className="guidelinesBg">
         <div className="inner height">
           <h2>GuideLines</h2>
           <p>Developer Student Club has set some following guidelines which every member needs to follow.</p>

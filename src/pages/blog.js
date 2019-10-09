@@ -8,7 +8,7 @@ import pic18 from '../assets/images/pic18.jpeg';
 const IndexPage = () => (
   <Layout fullMenu type="blog">
     <section id="wrapper">
-      <header>
+      <header className="blogBg">
         <div className="inner height">
           <h2 style={{ border: 'none' }}>Blog</h2>
           <p>We are not documenting. We are blogging about our events to make them interesting for you to read.</p>
