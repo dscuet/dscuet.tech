@@ -9,4 +9,8 @@
     .height p {
         font-size: 11px !important;
     }
+
+    .teamBg .height {
+        height: 16vh !important;
+    }
 }
