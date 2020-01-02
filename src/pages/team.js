@@ -140,7 +140,7 @@ const IndexPage = () => (
                 <a href="https://github.com/javeriaurooj" className="image">
                   <i class="fa fa-github" aria-hidden="true"></i>
                 </a>
-                <a href="https://facebook.com/jiya.arooj.37" className="image">
+                <a href="https://facebook.com/javeria678" className="image">
                   <i class="fa fa-facebook" aria-hidden="true"></i>
                 </a>
                 <a href="https://instagram.com/javeriaurooj" className="image">
